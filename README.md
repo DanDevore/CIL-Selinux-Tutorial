@@ -3,6 +3,20 @@
 Learn how to write a custom SELinux policy using the CIL (Common Intermediate Language) format. In this tutorial, we’ll create a policy to confine the xcowsay program step-by-step.
 <br><br><br>
 
+🧩 Overview
+
+This repository demonstrates writing a minimal SELinux policy in CIL format to confine the xcowsay executable.
+You’ll learn how to:
+
+Create SELinux types, roles, and transitions manually
+
+Label executables and apply custom file contexts
+
+Troubleshoot denials and update policies safely
+<br><br><br>
+
+
+
 ***Step 1.*** Before we start writing policy you need to make sure to put Selinux into permissive mode so we can test the policy without it getting blocked every time because it was in enforcing mode. To put it into permissive mode just run the following:
 
 ```
