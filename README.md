@@ -5,7 +5,7 @@ Learn how to write a custom SELinux policy using the CIL (Common Intermediate La
 
 
 
-# Step 1. Before we start writing policy you need to make sure to put Selinux into permissive mode so we can test the policy without it getting blocked every time because it was in enforcing mode. To put it into permissive mode just run the following:
+## Step 1. Before we start writing policy you need to make sure to put Selinux into permissive mode so we can test the policy without it getting blocked every time because it was in enforcing mode. To put it into permissive mode just run the following:
 
 ```
 sudo setenforce 0
